@@ -1,0 +1,11 @@
+com\example\demo\services\ProductService.class
+com\example\demo\DemoApplication.class
+com\example\demo\services\impl\ProductServiceImpl.class
+com\example\demo\entities\User.class
+com\example\demo\repositories\UserRepository.class
+com\example\demo\controllers\UserAPI.class
+com\example\demo\entities\Product.class
+com\example\demo\services\UserService.class
+com\example\demo\repositories\ProductRepository.class
+com\example\demo\controllers\ProductAPI.class
+com\example\demo\services\impl\UserServiceImpl.class

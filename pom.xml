@@ -12,6 +12,7 @@
 	<artifactId>sample-app</artifactId>
 	<version>1.0</version>
 	<name>sample-app</name>
+	<packaging>war</packaging>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -47,6 +48,11 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<plugin>
+                             <groupId>org.apache.maven.plugins</groupId>
+                             <artifactId>maven-war-plugin</artifactId>
+                             <version>3.2.1</version>
+      </plugin>
 	</build>
 
 </project>

@@ -12,7 +12,7 @@
 	<artifactId>sample-app</artifactId>
 	<version>1.0</version>
 	<name>sample-app</name>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -50,7 +50,7 @@
 		
 		     <plugin>
                              <groupId>org.apache.maven.plugins</groupId>
-                             <artifactId>maven-war-plugin</artifactId>
+                             <artifactId>maven-compiler-plugin</artifactId>
                              <version>3.2.1</version>
 	            </plugin>
            </plugins>
